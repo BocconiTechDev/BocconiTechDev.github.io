@@ -22,9 +22,10 @@ We need:
 - adb, to install apk to the virtual machine
 
 ##Workflow in Pictures
-![Screen1-2016-2-24.png]({{site.baseurl}}/_posts/Screen1-2016-2-24.png)
-![Screen2-2016-2-24.png]({{site.baseurl}}/_posts/Screen2-2016-2-24.png)
-![Screen3-2016-2-24.png]({{site.baseurl}}/_posts/Screen3-2016-2-24.png)
-![Screen4-2016-2-24.png]({{site.baseurl}}/_posts/Screen4-2016-2-24.png)
+![Screen1-2016-2-24.png]({{site.baseurl}}/images/Screen1-2016-2-24.png)
+![Screen2-2016-2-24.png]({{site.baseurl}}/images/Screen2-2016-2-24.png)
+![Screen3-2016-2-24.png]({{site.baseurl}}/images/Screen3-2016-2-24.png)
+![Screen4-2016-2-24.png]({{site.baseurl}}/images/Screen4-2016-2-24.png)
+
 
 ## Collected data
