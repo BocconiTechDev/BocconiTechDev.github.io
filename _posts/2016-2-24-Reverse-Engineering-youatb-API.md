@@ -30,6 +30,7 @@ We need:
 
 ## Collected data
 #### App initialization, step 1
+ Oh, look at the funny "b0cc0n1s3cr3t"!
 ###### Request
 ```http
 GET /api/v3/urls?app=UNIBOCCONI_ANDROID&v=4.0 HTTP/1.1
@@ -78,7 +79,7 @@ Date: Wed, 24 Feb 2016 08:48:02 GMT
 [{"result":"OK"}]
 ```
 #### Second step of initialization
-Calling the API address one got on the first step. Oh, the funny "b0cc0n1s3cr3t"
+Calling the API address one got on the first step.
 ###### Request
 ```http
 GET /universityapp_prod/api/v6/app/init?os=android HTTP/1.1
@@ -287,7 +288,7 @@ Accept-Encoding: gzip
 
 ###### Response
 Gives the same massive amount of JSON as the unauthorized version, what's important is the difference between the responses. The diff is small.
-```diff
+```
 --- unauth
 +++ auth
 @@ -1,9 +1,29 @@
