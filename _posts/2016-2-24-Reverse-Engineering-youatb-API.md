@@ -289,8 +289,6 @@ Accept-Encoding: gzip
 ###### Response
 Gives the same massive amount of JSON as the unauthorized version, what's important is the difference between the responses. The diff is small.
 ```
---- unauth
-+++ auth
 @@ -1,9 +1,29 @@
 +
  	{  
