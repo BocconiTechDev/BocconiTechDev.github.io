@@ -378,7 +378,7 @@ Connection: Keep-Alive
 Accept-Encoding: gzip
 ```
 ###### Response
-Will be the same as for today.
+Will be in the same form as for one day.
 
 
 ## Looking forward
