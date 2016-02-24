@@ -289,55 +289,7 @@ Accept-Encoding: gzip
 ###### Response
 Gives the same massive amount of JSON as the unauthorized version, what's important is the difference between the responses. The diff is small.
 ```
-@@ -1,9 +1,29 @@
-+
- 	{  
- 	   "allowed_sections":[  
- 
- 	   ],
--	   "auth_session":null,
--	   "auth_state":0,
-+	   "auth_session":{  
-+	      "careers":[  
-+	         {  
-+	            "date_end":null,
-+	            "date_start":"\/Date(1423868400000+0100)\/",
-+	            "description":"Attivo per Immatricolazione",
-+	            "id":[THE VERY IMPORTANT ID IS HERE],
-+	            "is_blocked":false,
-+	            "notes":"[PROGRAM DESCRIPTION]",
-+	            "registration_number":"111222",
-+	            "title":"[PROGRAM NAME]"
-+	         }
-+	      ],
-+	      "firstname":"John",
-+	      "id":null,
-+	      "lastname":"Doe",
-+	      "photo_url":"http:\/\/ks3-mobile.unibocconi.it\/Esse3Photo\/userphoto?userId=[USERID]",
-+	      "type":1,
-+	      "user_id":111222
-+	   },
-+	   "auth_state":1,
- 	   "configs":[  
- 	      {  
- 	         "id":2,
-@@ -118,14 +138,14 @@
- 	      {  
- 	         "auth":true,
- 	         "module_id":208,
--	         "script":null,
-+	         "script":"[SOME SCRIPT]",
- 	         "type":0,
- 	         "url":"https:\/\/webmail.studbocconi.it\/"
- 	      },
- 	      {  
- 	         "auth":true,
- 	         "module_id":301,
--	         "script":null,
-+	         "script":"[SOME SCRIPT]",
- 	         "type":0,
- 	         "url":"https:\/\/lib.unibocconi.it\/iii\/cas\/login?service=https%3A%2F%2Flib.unibocconi.it%3A443%2Fpatroninfo~S8*eng%2FIIITICKET&lang=eng&scope=8"
- 	      }
+diww
 ```
 I have deleted personal information and replaced it with placeholders for John Doe with username 111222. That's the place where one can get the `id` that will be needed to access the timetable.
 
