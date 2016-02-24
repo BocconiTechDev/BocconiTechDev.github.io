@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Reverse Engineering the API of youatb Android client
+title: Reverse Engineering the API of the "you@b" Android client
 published: true
 ---
 
 
 ## The problem
-The Bocconi official Android app feels very unprofessional, constantly restarts, the timetable is never cached, has no design at all, etc. To write a replacement-enchacement there are three ways:
+The official Bocconi Android app feels very unprofessional, constantly restarts, the timetable is never cached, has no design at all, etc. To write a replacement-enchacement there are three ways:
 - Reverse Engineering the API
 - Write a client emulating desktop browser behaviour around the youatb website
 - Get the information in a different way, for example, the timetables are available on the main website by code
