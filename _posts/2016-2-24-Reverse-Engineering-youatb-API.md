@@ -288,9 +288,13 @@ Accept-Encoding: gzip
 
 ###### Response
 Gives the same massive amount of JSON as the unauthorized version, what's important is the difference between the responses. The diff is small.
+
 ```
-diww
+sadasdd
+Authorization: BASIC [REDACTED]
+asdasdaas
 ```
+
 I have deleted personal information and replaced it with placeholders for John Doe with username 111222. That's the place where one can get the `id` that will be needed to access the timetable.
 
 #### Agenda for today
